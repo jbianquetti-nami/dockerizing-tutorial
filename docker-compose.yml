@@ -7,7 +7,7 @@ services:
      - "3000:3000"
     environment:
      - NODE_ENV=development
-     - MONGODB_HOST=node_my-mean-db_1
+     - MONGODB_HOST=dockerizingtutorial_my-mean-db_1
      - MONGODB_USERNAME=myusername
      - MONGODB_PASSWORD=myusernametrickylongpassword
      - MONGODB_DATABASE=mydb
