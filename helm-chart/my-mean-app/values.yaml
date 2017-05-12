@@ -4,12 +4,12 @@
 replicaCount: 1
 image:
   repository: bitnami/my-mean-app
-  tag: 0.2.0
+  tag: 0.1.0
   pullPolicy: IfNotPresent
 service:
   name: my-mean-app
-  type: LoadBalancer 
-  externalPort: 80
+  type: NodePort
+  externalPort: 3000
   internalPort: 3000
 resources:
   limits:
